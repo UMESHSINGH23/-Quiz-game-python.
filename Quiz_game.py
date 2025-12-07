@@ -57,15 +57,34 @@ if answer.lower() == "a":
 else:
     print("Wrong! The correct answer is: Central Processing Unit")
 
+# QUESTION 5 (NEW QUESTION ADDED)
+print("\n5. Which device is used to store long-term data?")
+print("a) RAM")
+print("b) Hard Drive")
+print("c) CPU")
+answer = input("Your answer (a/b/c): ")
+
+if answer.lower() == "b":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong! The correct answer is: Hard Drive")
+if answer.lower() == "c":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong! The correct answer is: Hard Drive")
+
+
+
 # PRINTING FINAL SCORE
 print("\n---------------------------------")
-print(f"Quiz Completed! Your total score is: {score}/3")
+print(f"Quiz Completed! Your total score is: {score}/5")
 
 # Feedback
-if score == 3:
+if score == 5:
     print("Excellent! 🎉")
 elif score == 2:
     print("Good job! 👍 Keep improving.")
 else:
     print("Don’t worry! Practice makes perfect 🙂")
-
