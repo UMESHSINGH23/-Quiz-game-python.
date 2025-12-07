@@ -75,11 +75,22 @@ if answer.lower() == "c":
 else:
     print("Wrong! The correct answer is: Hard Drive")
 
+    # QUESTION 6
+    print("\n6. Which planet is known as the Red Planet?")
+    print("a) Venus")
+    print("b) Mars")
+    print("c) Jupiter")
+    answer = input("Your answer (a/b/c): ")
 
+    if answer.lower() == "b":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is: Mars")
 
 # PRINTING FINAL SCORE
 print("\n---------------------------------")
-print(f"Quiz Completed! Your total score is: {score}/5")
+print(f"Quiz Completed! Your total score is: {score}/6")
 
 # Feedback
 if score == 5:
