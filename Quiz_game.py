@@ -39,7 +39,18 @@ print("a) Central Processing Unit")
 print("b) Central Power Unit")
 print("c) Computer Processing Utility")
 answer = input("Your answer (a/b/c): ")
+# QUESTION 4 (NEW QUESTION ADDED)
+print("\n4. Which programming language is known for data science?")
+print("a) Python")
+print("b) HTML")
+print("c) CSS")
+answer = input("Your answer (a/b/c): ")
 
+if answer.lower() == "a":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong! The correct answer is: Python")
 if answer.lower() == "a":
     print("Correct!")
     score += 1
