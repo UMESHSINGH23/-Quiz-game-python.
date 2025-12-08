@@ -88,14 +88,27 @@ else:
     else:
         print("Wrong! The correct answer is: Mars")
 
+# QUESTION 7 (NEW QUESTION ADDED)
+print("\n7. In Python, which keyword is used to begin an 'if' conditional statement?")
+print("a) if")
+print("b) else")
+print("c) for")
+answer = input("Your answer (a/b/c): ")
+
+if answer.lower() == "a":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong! The correct answer is: if")
+
 # PRINTING FINAL SCORE
 print("\n---------------------------------")
-print(f"Quiz Completed! Your total score is: {score}/6")
+print(f"Quiz Completed! Your total score is: {score}/7")
 
 # Feedback
-if score == 5:
+if score == 7:
     print("Excellent! 🎉")
-elif score == 2:
+elif score >= 4:
     print("Good job! 👍 Keep improving.")
 else:
     print("Don’t worry! Practice makes perfect 🙂")
